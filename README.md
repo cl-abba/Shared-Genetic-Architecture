@@ -1,0 +1,2 @@
+# MendelianRandomization
+Mendelian Randomization scripts
