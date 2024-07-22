@@ -68,3 +68,7 @@ for.meta T \
 sumsum T
 
 #Format input files "as numeric"
+#Note that in UKBB
+  #ref: Reference allele on the forward strand.
+  #alt: Alternate allele (not necessarily minor allele). Used as effect allele for GWAS.
+  #So UKBB treats A2 as effect allele (Watanabe et al treats A1 as effect allele)
