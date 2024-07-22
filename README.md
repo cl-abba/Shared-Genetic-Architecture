@@ -17,4 +17,4 @@ The methodology is as follows:
 1. LDSC (GenomicSEM)
 2. PGS (PRSice version 1.25)
 3. MR (TwoSample MR)
-4. Gene set enrichment (FUMA and ShinyGo)
+4. Gene set enrichment (FUMA https://fuma.ctglab.nl/ and ShinyGo http://bioinformatics.sdstate.edu/go74/)
