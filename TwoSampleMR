@@ -200,3 +200,10 @@ length(p1)
 p2 <- mr_forest_plot(single_snp_exp_red_hair_out_PD)
 p2[[1]]
 ?mr_forest_plot
+
+#Notes:
+    #Clump in R first (BASE only)
+    #Benefit of using MR for this is that there is an internal EUR LD referene, so we do not have to download from the cluster
+    #Take list of SNPs from that output and use as input for --extract command in PRSice
+    #Large window size and small r squared to ensure we are removing anything that is even remotely correlated with one another
+    #No covariates
