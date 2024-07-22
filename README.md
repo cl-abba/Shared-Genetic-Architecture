@@ -1,7 +1,7 @@
 # MendelianRandomization
 Mendelian Randomization scripts
 
-This repository describes steps in Mendelian Randomization analyses. Compliment to the paper, "Investigating potential causal relationships between pigmentation genetics and Parkinson’s Disease".
+This repository describes steps in Mendelian Randomization (MR) analyses. Compliment to the paper, "Investigating potential causal relationships between pigmentation genetics and Parkinson’s Disease".
 
 ## Introduction
 
