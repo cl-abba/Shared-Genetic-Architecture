@@ -14,8 +14,8 @@ To replicate this protocol, the following materials are required:
 
 The methodology is as follows:
 
-1. LDSC (GenomicSEM)
-2. PGS (PRSice version 1.25)
-3. Mendelian Randomization (TwoSample MR and MR-APPS)
-4. CPASSOC (http://hal.case.edu/zhu-web/)
+1. Genetic Correlation with LDSC (GenomicSEM)
+2. Shared Architecture with Polygenic Risk Scores (PRS) (PRSice version 1.25)
+3. Causal Inference with Mendelian Randomization (TwoSample MR and MR-APPS)
+4. Pleiotropy/Multi-trait association analysis with CPASSOC (http://hal.case.edu/zhu-web/)
 5. Gene set enrichment (FUMA https://fuma.ctglab.nl/ and ShinyGo http://bioinformatics.sdstate.edu/go74/)
