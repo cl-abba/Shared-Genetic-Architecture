@@ -16,6 +16,6 @@ The methodology is as follows:
 
 1. LDSC (GenomicSEM)
 2. PGS (PRSice version 1.25)
-3. MR (TwoSample MR and MR-APPS)
+3. Mendelian Randomization (TwoSample MR and MR-APPS)
 4. CPASSOC (http://hal.case.edu/zhu-web/)
 5. Gene set enrichment (FUMA https://fuma.ctglab.nl/ and ShinyGo http://bioinformatics.sdstate.edu/go74/)
