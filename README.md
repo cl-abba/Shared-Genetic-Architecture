@@ -1,7 +1,7 @@
 # Shared Genetic Architecture 
 Scripts for investigating shared genetic architecuture (correlative relationships, causal inference and pleiotropy)
 
-This repository describes steps in Mendelian Randomization (MR) analyses. Compliment to the paper, "Investigating potential causal relationships between pigmentation genetics and Parkinson’s Disease".
+This repository describes steps in Mendelian Randomization (MR) analyses. Compliment to the paper, "Investigating shared genetic architecture between pigmentation genetics and Parkinson’s Disease".
 
 ## Introduction
 
