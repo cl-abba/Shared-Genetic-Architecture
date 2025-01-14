@@ -1,4 +1,4 @@
-# Using Mendelian Randomization (MR) for causal inference analysis
+# Causal Inference Analysis using Mendelian Randomization
 
 ## About MR 
 
