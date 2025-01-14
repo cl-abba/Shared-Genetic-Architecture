@@ -54,10 +54,7 @@ library(devtools)
 library(readr)
 library(MRAPSS)
 
-# First, try removing the package
-#remove.packages("cli")
-
-# Then, reinstall the package
+# You may have to remove and reinstall the package
 #install.packages("cli")
 
 # After installation, try loading the library and re-running your script
