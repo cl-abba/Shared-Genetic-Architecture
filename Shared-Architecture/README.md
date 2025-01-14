@@ -13,6 +13,7 @@
 ## References
 
 Choi, S. W., Mak, T. S. H., & O’Reilly, P. F. (2020). Tutorial: a guide to performing polygenic risk score analyses. Nature Protocols, 15(9). https://doi.org/10.1038/s41596-020-0353-1
+
 Euesden, J., Lewis, C. M., & O'Reilly, P. F. (2016). PRSice: Polygenic Risk Score software v1.25. Bioinformatics.
 
 
