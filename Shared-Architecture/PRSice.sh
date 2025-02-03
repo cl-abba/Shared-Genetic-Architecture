@@ -1,4 +1,4 @@
-prep-ref.sh
+## prep-ref.sh
 
 #!/bin/bash
 
@@ -23,7 +23,7 @@ output_base="1000kg-ref-eur"
 # Convert VCF to PLINK binary format
 plink2 --vcf "$input_vcf" --make-bed --out "$output_base"
 
-run-PRSice.sh
+## run-PRSice.sh
 
 #!/bin/bash
 
