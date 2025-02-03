@@ -8,12 +8,12 @@
 - CPASSOC calculates two different measures: SHom and SHet.  The SHom method is analogous to the fixed-effect meta-analysis approach (Willer, Li & Abecassis, 2010), but it incorporates adjustments for correlations in summary statistics across traits and cohorts, which may arise from related traits, overlapping datasets, or shared samples.
 - SHet is an extension of SHom, permitting heterogeneity across trait effects.Given that CPASSOC combines multiple traits, the genome-wide significance threshold of P = 5 x 10-8 can be applied in SHom and SHet analyses as in a conventional GWAS to determine pleiotropic loci.
 - The R code contains lines corresponding to the following:
-    a. Reading in the summary statistics
-    b. Creating the correlation matrix
-    c. Running the SHet and SHom tests (for all traits)
-    d. Creating Manhattan plots for SHet and SHom
-    e. Creating results files for SHet, SHom and lead SNPs
-    f. Repeating the procedure for pairwise tests for pleiotropy
+-     Reading in the summary statistics
+-     Creating the correlation matrix
+-     Running the SHet and SHom tests (for all traits)
+-     Creating Manhattan plots for SHet and SHom
+-     Creating results files for SHet, SHom and lead SNPs
+-     Repeating the procedure for pairwise tests for pleiotropy
 
 ## References
 
