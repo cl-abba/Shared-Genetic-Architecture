@@ -8,7 +8,7 @@ library(ggrepel)
 library(RColorBrewer)
 library(dplyr)
 
-# Define the list of corrected summary statistics files
+# Define the list of summary statistics files
 input_files <- c(
   "basal_corrected_v2.txt",
   "brownhair_corrected_v2.txt",
@@ -20,32 +20,6 @@ input_files <- c(
   "vitd_corrected_v2.txt",
   "vitiligo_corrected_v2.txt"
 )
-
-# Define the corresponding output file names for PRSice
-output_files <- c(
-  "basal_corrected_v2_prs.txt",
-  "brownhair_corrected_v2_prs.txt",
-  "melanoma_corrected_v2_prs.txt",
-  "nevi_corrected_v2_prs.txt",
-  "PD_corrected_v2_prs.txt",
-  "redhair_corrected_v2_prs.txt",
-  "tanning_corrected_v2_prs.txt",
-  "vitd_corrected_v2_prs.txt",
-  "vitiligo_corrected_v2_prs.txt"
-)
-
-# Loop through each input file, format for PRSice, and save the new files
-for (i in seq_along(input_files)) {
-  # Read the summary statistics file
-  sum_stats <- read.table(input_files[i], header = TRUE, sep = "\t", stringsAsFactors = FALSE)
-  
-  # Select and rename the relevant columns
-  prs_data <- sum_stats[, c("SNP", "CHR", "BP", "A1", "A2", "B", "SE", "P")]
-  colnames(prs_data) <- c("SNP", "CHR", "BP", "A1", "A2", "BETA", "SE", "P")
-  
-  # Write the reformatted data to the output file
-  write.table(prs_data, output_files[i], quote = FALSE, sep = "\t", row.names = FALSE, col.names = TRUE)
-}
 
 # Load custom functions for SHom and SHet
 source("FunctionSet.R")
